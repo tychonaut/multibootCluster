@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<pvx>
+ 
+  <Process Type="client" />
+ 
+ 
+  <Process Type="server">
+	
+	<!-- 
+      The only supported Type values are "server", "dataserver" or "renderserver".
+      This controls which executable this configuration is applicable to.
+      There can be multiple <Process /> elements in the same pvx file.
+      |  Executable     | Applicable Process Type          |
+      |  pvserver       | server, dataserver, renderserver |
+      |  pvrenderserver | server, renderserver             |
+      |  pvdataserver   | server, dataserver               |
+     -->
+	 
+	<!-- Should be specified in the configuration file <- no idea what this is supposed to mean, sounds tautological -->
+    <!-- <EyeSeparation Value="0.065"/>  -->
+
+
+
+      <!--
+         There can be multiple <Machine> elements in a <Process> element, 
+         each one identifying the configuration for a process. 
+         All attributes are optional.
+         Name: Hostname of the machine on which the process will run.
+         Environment: Environment variables for the process.
+         Geometry: Geometry of the render window for this process.
+                   Specified as "<width>x<height>+<xoffset>+<yoffset>".
+         FullScreen: Ignore Geometry and render fullscreen.
+         ShowBorders: Show/hide window decorations.
+         LowerLeft|LowerRight|UpperRight: Define corners of the display in
+                                          data coordinates.
+										  
+		<Machine Name="hostname"
+				 Environment="DISPLAY=:0"
+				 Geometry="1920x1080+0+0"
+				 FullScreen="0"
+				 ShowBorders="0"            
+				 LowerLeft="-1.0 -1.0 -1.0"
+				 LowerRight="1.0 -1.0 -1.0"
+				 UpperRight="1.0  1.0 -1.0">
+		</Machine>
+       -->
+
+
+ 
+
+	<!-- CAVE: Five screens for testing  in dome in preparation of desktop warping -->
+
+
+	<!-- 
+		IMPORTANT: 
+			The association between a real server computer (a.k.a. arenartX) 
+			and a "Machine" element seems to have nothing to do with their host names!!111
+			It is instead done in the same order as the machines are specified in machines.txt fir mpiexec!
+			If we want the "main" server to be arenart3 (because it is the QuadroSync master!),
+			we have to put it on top of both machines.txt and this file!
+		
+		NOTE:
+			The host name may have some ambiguities which network to use for communication.
+			To be perfectly clear that we want to use the fast 10GBit internal network,
+			we use IP adresses instead of hostnames!
+	-->
+
+    <!-- just a template to be filled by a script, 
+        ignore validity of numeric values -->
+        
+	<!-- "Back" : arenart3 --> 
+	<Machine Name="10.0.10.23"
+           Environment=""
+		   Geometry="2560x1600+1920+0"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="  1 -1  1"
+           LowerRight="-1 -1  1"
+           UpperRight="-1  1  1"
+           UpperLeft="  0  0  0"
+	/>
+  
+	
+	<!-- "Front": arenart1 -->
+	<Machine Name="10.0.10.21"       
+		   Environment=""  
+		   Geometry="2560x1600+1920+0"
+           FullScreen="0"
+           ShowBorders="0"	   
+           LowerLeft=" -1 -1 -1"
+           LowerRight=" 1 -1 -1"
+           UpperRight=" 1  1 -1" 
+           UpperLeft="  0  0  0"
+	/>
+	
+		   
+	<!-- "Left": arenart2-->
+	<Machine Name="10.0.10.22"        
+		   Environment=""		   
+		   Geometry="2560x1600+1920+0"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft=" -1 -1  1"
+           LowerRight="-1 -1 -1"
+           UpperRight="-1  1 -1"
+           UpperLeft="  0  0  0"
+	/>
+  
+
+	<!-- "Right": arenart4 -->
+	<Machine Name="10.0.10.24"
+           Environment=""
+		   Geometry="2560x1600+1920+0"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="  1 -1 -1"
+           LowerRight=" 1 -1  1"
+           UpperRight=" 1  1  1"
+           UpperLeft="  0  0  0"
+	/>
+  
+  
+	<!-- "Top": arenart5-->
+	<Machine Name="10.0.10.25"
+           Environment=""
+		   Geometry="2560x1600+1920+0"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft=" -1  1 -1"
+           LowerRight=" 1  1 -1"
+           UpperRight=" 1  1  1"
+           UpperLeft="  0  0  0"
+	/>
+  
+  
+
+  
+  <!-- Unused: "Bottom" -->
+  <!-- <Machine Name="nonexisting" -->
+           <!-- Environment="" -->
+           <!-- LowerLeft=" -1 -1  1" -->
+           <!-- LowerRight=" 1 -1  1" -->
+           <!-- UpperRight=" 1 -1 -1" -->
+           <!-- UpperLeft="  0  0  0" -->
+  <!-- /> -->
+  
+  
+    
+  
+ </Process>
+</pvx>
