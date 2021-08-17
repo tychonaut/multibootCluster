@@ -167,9 +167,12 @@ function ret = convertFrustum_FovEulerToPlaneMidPointNormalUpExtents()
     
     
     ##----------------------------------------------------------------------------
+	
     # Set up rotation matrix:
     # On reasons for this particular rotation order and angle signs, check 
     # <multiOSCluster dir>/appControl/ParaView/misc/convertFrustum_FovEulerToPlaneCorners.m
+	# or https://en.wikipedia.org/wiki/Aircraft_principal_axes
+	# or https://en.wikipedia.org/wiki/Euler_angles#Tait.E2.80.93Bryan_angles
     
     # degrees to radians:
     yaw =   deg2rad((frusta_FOV_Euler(frustumIndex_in).eulerAngles.yaw));
