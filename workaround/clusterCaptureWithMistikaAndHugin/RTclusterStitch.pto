@@ -5,15 +5,15 @@ m i0
 
 # image lines
 #-hugin  autoCenterCrop=1 cropFactor=1
-i w2560 h2560 f0 v110 Ra0 Rb0 Rc0 Rd0 Re0 Eev0 Er1 Eb1 r-15.01428 p22.76471 y38.56322 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S44,2516,566,1994 Vm5 n"screenshots/adapted/RT001_adapted.png"
+i w2560 h2560 f0 v110 Ra0 Rb0 Rc0 Rd0 Re0 Eev0 Er1 Eb1 r-15.01428 p22.76471 y38.56322 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S44,2516,566,1994 Vm5 n"screenshots/adapted_scaleY_2560x2560/RT001_adapted.png"
 #-hugin  autoCenterCrop=1 cropFactor=1
-i w2560 h2560 f0 v122 Ra0 Rb0 Rc0 Rd0 Re0 Eev-0.04537 Er1 Eb1 r15.66994 p26.48922 y-33.41741 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b-0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S41,2519,617,1943 Vm5 n"screenshots/adapted/RT002_adapted.png"
+i w2560 h2560 f0 v122 Ra0 Rb0 Rc0 Rd0 Re0 Eev-0.04537 Er1 Eb1 r15.66994 p26.48922 y-33.41741 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b-0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S41,2519,617,1943 Vm5 n"screenshots/adapted_scaleY_2560x2560/RT002_adapted.png"
 #-hugin  autoCenterCrop=1 cropFactor=1
-i w2560 h2560 f0 v116 Ra0 Rb0 Rc0 Rd0 Re0 Eev0.68429 Er1 Eb1 r25.71614 p52.31257 y-116.45371 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S97,2463,595,1965 Vm5 n"screenshots/adapted/RT003_adapted.png"
+i w2560 h2560 f0 v116 Ra0 Rb0 Rc0 Rd0 Re0 Eev0.68429 Er1 Eb1 r25.71614 p52.31257 y-116.45371 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S97,2463,595,1965 Vm5 n"screenshots/adapted_scaleY_2560x2560/RT003_adapted.png"
 #-hugin  autoCenterCrop=1 cropFactor=1
-i w2560 h2560 f0 v110 Ra0 Rb0 Rc0 Rd0 Re0 Eev0.06242 Er1 Eb1 r-28.08995 p53.06412 y115.04663 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S45,2515,466,2094 Vm5 n"screenshots/adapted/RT004_adapted.png"
+i w2560 h2560 f0 v110 Ra0 Rb0 Rc0 Rd0 Re0 Eev0.06242 Er1 Eb1 r-28.08995 p53.06412 y115.04663 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S45,2515,466,2094 Vm5 n"screenshots/adapted_scaleY_2560x2560/RT004_adapted.png"
 #-hugin  autoCenterCrop=1 cropFactor=1
-i w2560 h2560 f0 v114 Ra0 Rb0 Rc0 Rd0 Re0 Eev-0.00606 Er1 Eb1 r4.26111 p72.18367 y-6.7497 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S50,2510,568,1992 Vm5 n"screenshots/adapted/RT005_adapted.png"
+i w2560 h2560 f0 v114 Ra0 Rb0 Rc0 Rd0 Re0 Eev-0.00606 Er1 Eb1 r4.26111 p72.18367 y-6.7497 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  S50,2510,568,1992 Vm5 n"screenshots/adapted_scaleY_2560x2560/RT005_adapted.png"
 
 
 # specify variables that should be optimized
