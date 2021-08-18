@@ -5,9 +5,10 @@
 
       "OpenSpace": {
 	  
-        "profile": "desktopWarpBlend_texShade",
+        "profile": "desktopWarpBlend_texShade_v0.17.1",
 
-        "installDir": "/d/apps/OpenSpace/v0.15.1_git_arena",
+        "installDir": "/d/apps/OpenSpace/v0.17.1_prebuilt",
+		
         "executable": "bin/OpenSpace.exe",
 		
 		"configDir":  "/d/apps/OpenSpace/v0.15.1_git_arena",
