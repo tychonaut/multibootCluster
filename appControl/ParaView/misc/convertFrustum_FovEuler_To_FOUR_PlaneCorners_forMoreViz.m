@@ -24,8 +24,12 @@ pkg load matgeom
 pkg load linear-algebra
 
 
-javaaddpath ("C:/Users/Domecaster/devel/xerces-2_12_1/xercesImpl.jar")
-javaaddpath ("C:/Users/Domecaster/devel/xerces-2_12_1/xml-apis.jar")
+#javaaddpath ("C:/Users/Domecaster/devel/xerces-2_12_1/xercesImpl.jar")
+#javaaddpath ("C:/Users/Domecaster/devel/xerces-2_12_1/xml-apis.jar")
+javaaddpath ("D:/devel/xerces_java/xerces-2_12_1/xercesImpl.jar")
+javaaddpath ("D:/devel/xerces_java/xerces-2_12_1/xml-apis.jar")
+
+
 
 # directory of this script
 file_path = fileparts(mfilename('fullpath'))
