@@ -1,0 +1,13 @@
+# fisheye pano: 4 images in middle (pitch 0) + zenit + nadir
+# middle row
+# yaw by 45 degrees
+y0=38.56322, p0=22.76471, r0=-15.01428
+y1=-33.41741, p1=26.48922, r1=15.66994
+y2=-116.45371, p2=52.31257, r2=25.71614
+y3=115.04663, p3=53.06412, r3=-28.08995
+# zenit
+y4=-6.74970, p4=72.18367, r4=4.26111
+# NO nadir image
+#y5=0, p5=-90
+# NO general roll anymore  for all images roll=0
+#r=0
