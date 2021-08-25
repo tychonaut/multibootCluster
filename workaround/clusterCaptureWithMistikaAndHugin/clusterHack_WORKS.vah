@@ -21,10 +21,10 @@
       0,
       0,
       [
-        0.96446728154383576,
-        0.25629984846481763,
-        -0.02666813603144844,
-        0.058327189448515407
+        0.81378301088943894,
+        0.57606419623038518,
+        0.047651828918213769,
+        -0.060303865629898569
       ]
     ], 
     "stabilization" : [
@@ -335,5 +335,17 @@
     "anchor" : -1, 
     "auto" : false
   }, 
-  "outputs" : []
+  "outputs" : [
+    {
+      "type" : "mp4", 
+      "filename" : "C:\\Users\\Domecaster\\Vahana VR\\Recordings\\output", 
+      "bitrate_mode" : "VBR", 
+      "video_codec" : "h264", 
+      "b_frames" : 2, 
+      "profile" : "baseline", 
+      "level" : "5.2", 
+      "bitrate" : 12068000, 
+      "gop" : -1
+    }
+  ]
 }
