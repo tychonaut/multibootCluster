@@ -1,0 +1,78 @@
+cmake -G "Visual Studio 16 2019" /
+    -DCMAKE_TOOLCHAIN_FILE="D:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake" \
+    -DQt5_DIR="C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5" \
+    -DGPU_BACKEND_CUDA=ON \
+    -DGPU_BACKEND_OPENCL=OFF \
+    -DCUDA_LOCAL_ARCH_ONLY=ON \
+    -DVCPKG_ROOT="D:\dev\vcpkg" \
+    -DVCPKG_TARGET_TRIPLET="x64-windows" \
+    -DMAGEWELL_PATH="C:\Program Files\MWCaptureSDK 3.3.1.1303" \
+    ..\stitchEm
+    
+    
+    
+        -DXIMEA_PATH="PATH_TO_XIMEA_API" \
+    -DDECKLINK_PATH="PATH_TO_DECK_LINK_OVR" \
+    -DINTEL_MEDIA_SDK_PATH="PATH_TO_INTEL_SDK" \
+    
+    
+cmake -G "Visual Studio 16 2019" ^
+    -DCMAKE_TOOLCHAIN_FILE="C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake" ^
+    -DQt5_DIR="C:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5" ^
+    -DGPU_BACKEND_CUDA=ON ^
+    -DGPU_BACKEND_OPENCL=OFF ^
+    -DCUDA_LOCAL_ARCH_ONLY=ON ^
+    -DVCPKG_ROOT="D:\dev\vcpkg" ^
+    -DVCPKG_TARGET_TRIPLET="x64-windows" ^
+    -DMAGEWELL_PATH="C:\Program Files\MWCaptureSDK 3.3.1.1303" ^
+    ..
+    
+    
+    
+    
+cmake -G "Visual Studio 16 2019" ^
+    -DCMAKE_TOOLCHAIN_FILE="C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake" ^
+    -DQt5_DIR="C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5" ^
+    -DGPU_BACKEND_CUDA=ON ^
+    -DGPU_BACKEND_OPENCL=OFF ^
+    -DCUDA_LOCAL_ARCH_ONLY=ON ^
+    -DVCPKG_ROOT="C:/dev/vcpkg" ^
+    -DVCPKG_TARGET_TRIPLET="x64-windows" ^
+    -DMAGEWELL_PATH="C:/Program Files/MWCaptureSDK 3.3.1.1303" ^
+    ..
+    
+    "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2/bin/nvcc.exe"
+    
+    
+    nvcc --run cmake/configuration/queryCUDAProps.cu -Wno-deprecated-gpu-targets --output-file ../queryCUDAProps
+    
+    
+    cmake -G "Visual Studio 16 2019" \
+    -DCMAKE_TOOLCHAIN_FILE="C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake" \
+    -DQt5_DIR="C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5" \
+    -DGPU_BACKEND_CUDA=ON \
+    -DGPU_BACKEND_OPENCL=OFF \
+    -DCUDA_LOCAL_ARCH_ONLY=ON \
+    -DVCPKG_ROOT="C:/dev/vcpkg" \
+    -DVCPKG_TARGET_TRIPLET="x64-windows" \
+    -DMAGEWELL_PATH="C:/Program Files/MWCaptureSDK 3.3.1.1303" \
+    
+cmake -G "Visual Studio 16 2019" `
+    -DCMAKE_TOOLCHAIN_FILE="C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake" `
+    -DQt5_DIR="C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5" `
+    -DGPU_BACKEND_CUDA=ON `
+    -DGPU_BACKEND_OPENCL=OFF `
+    -DVCPKG_ROOT="C:/dev/vcpkg" `
+    -DVCPKG_TARGET_TRIPLET="x64-windows" `
+    -DMAGEWELL_PATH="C:/Program Files/MWCaptureSDK 3.3.1.1303" `
+    ..
+
+cmake -G "Visual Studio 15 2017" `
+    -DCMAKE_TOOLCHAIN_FILE="C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake" `
+    -DQt5_DIR="C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5" `
+    -DGPU_BACKEND_CUDA=ON `
+    -DGPU_BACKEND_OPENCL=OFF `
+    -DVCPKG_ROOT="C:/dev/vcpkg" `
+    -DVCPKG_TARGET_TRIPLET="x64-windows" `
+    -DMAGEWELL_PATH="C:/Program Files/MWCaptureSDK 3.3.1.1303" `
+    ..

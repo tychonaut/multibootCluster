@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPCDI profile="3d" geometry="2" color="4" date="2021-08-24 09:19:53" version="2.0" >
+  <display>
+    <buffer id="mpcdi_3d_allInOne_202108240919" >
+      <region id="Display0" x="0" y="0" xSize="1" ySize="1" xResolution ="2560" yResolution="1600" >
+        <frustum>
+			<yaw>27.5030060</yaw>
+			<pitch>35.2256598</pitch>
+			<roll>-16.3107253</roll>
+			<rightAngle>62.0000000</rightAngle>
+			<leftAngle>62.0000000</leftAngle>
+			<upAngle>45.0000000</upAngle>
+			<downAngle>45.0000000</downAngle>
+        </frustum>
+        <color>
+          <decode type="gamma" gamma="1.0" />
+          <encode type="gamma" gamma="1.0" />
+        </color>
+      </region>
+      <region id="Display1" x="0" y="0" xSize="1" ySize="1" xResolution ="2560" yResolution="1600" >
+        <frustum>
+			<yaw>24.4551734</yaw>
+			<pitch>-37.7325698</pitch>
+			<roll>14.3149988</roll>
+			<rightAngle>58.0000000</rightAngle>
+			<leftAngle>58.0000000</leftAngle>
+			<upAngle>44.0000000</upAngle>
+			<downAngle>44.0000000</downAngle>
+        </frustum>
+        <color>
+          <decode type="gamma" gamma="1.0" />
+          <encode type="gamma" gamma="1.0" />
+        </color>
+      </region>
+      <region id="Display2" x="0" y="0" xSize="1" ySize="1" xResolution ="2560" yResolution="1600" >
+        <frustum>
+			<yaw>50.7150132</yaw>
+			<pitch>118.9849302</pitch>
+			<roll>-23.7237969</roll>
+			<rightAngle>54.0000000</rightAngle>
+			<leftAngle>54.0000000</leftAngle>
+			<upAngle>39.0000001</upAngle>
+			<downAngle>39.0000001</downAngle>
+        </frustum>
+        <color>
+          <decode type="gamma" gamma="1.0" />
+          <encode type="gamma" gamma="1.0" />
+        </color>
+      </region>
+      <region id="Display3" x="0" y="0" xSize="1" ySize="1" xResolution ="2560" yResolution="1600" >
+        <frustum>
+			<yaw>53.3721610</yaw>
+			<pitch>-116.7239183</pitch>
+			<roll>27.0037656</roll>
+			<rightAngle>57.0000000</rightAngle>
+			<leftAngle>57.0000000</leftAngle>
+			<upAngle>44.0000000</upAngle>
+			<downAngle>44.0000000</downAngle>
+        </frustum>
+        <color>
+          <decode type="gamma" gamma="1.0" />
+          <encode type="gamma" gamma="1.0" />
+        </color>
+      </region>
+      <region id="Display4" x="0" y="0" xSize="1" ySize="1" xResolution ="2560" yResolution="1600" >
+        <frustum>
+			<yaw>73.2159269</yaw>
+			<pitch>9.4374015</pitch>
+			<roll>-2.1884342</roll>
+			<rightAngle>57.0000000</rightAngle>
+			<leftAngle>57.0000000</leftAngle>
+			<upAngle>44.0000000</upAngle>
+			<downAngle>44.0000000</downAngle>
+        </frustum>
+        <color>
+          <decode type="gamma" gamma="1.0" />
+          <encode type="gamma" gamma="1.0" />
+        </color>
+      </region>
+    </buffer>
+  </display>
+  <files>
+    <fileset region="Display0">
+      <geometryWarpFile>
+        <path>Display0.pfm</path>
+        <interpolation>smooth</interpolation>
+        <originOf3DData>idealEyePoint</originOf3DData>
+      </geometryWarpFile>
+      <alphaMap>
+        <path>Display0.png</path>
+        <bitDepth>8</bitDepth>
+        <componentDepth>3</componentDepth>
+        <gammaEmbedded>2.2</gammaEmbedded>
+      </alphaMap>
+    </fileset>
+    <fileset region="Display1">
+      <geometryWarpFile>
+        <path>Display1.pfm</path>
+        <interpolation>smooth</interpolation>
+        <originOf3DData>idealEyePoint</originOf3DData>
+      </geometryWarpFile>
+      <alphaMap>
+        <path>Display1.png</path>
+        <bitDepth>8</bitDepth>
+        <componentDepth>3</componentDepth>
+        <gammaEmbedded>2.2</gammaEmbedded>
+      </alphaMap>
+    </fileset>
+    <fileset region="Display2">
+      <geometryWarpFile>
+        <path>Display2.pfm</path>
+        <interpolation>smooth</interpolation>
+        <originOf3DData>idealEyePoint</originOf3DData>
+      </geometryWarpFile>
+      <alphaMap>
+        <path>Display2.png</path>
+        <bitDepth>8</bitDepth>
+        <componentDepth>3</componentDepth>
+        <gammaEmbedded>2.2</gammaEmbedded>
+      </alphaMap>
+    </fileset>
+    <fileset region="Display3">
+      <geometryWarpFile>
+        <path>Display3.pfm</path>
+        <interpolation>smooth</interpolation>
+        <originOf3DData>idealEyePoint</originOf3DData>
+      </geometryWarpFile>
+      <alphaMap>
+        <path>Display3.png</path>
+        <bitDepth>8</bitDepth>
+        <componentDepth>3</componentDepth>
+        <gammaEmbedded>2.2</gammaEmbedded>
+      </alphaMap>
+    </fileset>
+    <fileset region="Display4">
+      <geometryWarpFile>
+        <path>Display4.pfm</path>
+        <interpolation>smooth</interpolation>
+        <originOf3DData>idealEyePoint</originOf3DData>
+      </geometryWarpFile>
+      <alphaMap>
+        <path>Display4.png</path>
+        <bitDepth>8</bitDepth>
+        <componentDepth>3</componentDepth>
+        <gammaEmbedded>2.2</gammaEmbedded>
+      </alphaMap>
+    </fileset>
+  </files>
+</MPCDI>
